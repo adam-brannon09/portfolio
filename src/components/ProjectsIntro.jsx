@@ -2,9 +2,9 @@ import ProjectPic from '../assets/free-digital-media-vector-illustration.jpg'
 
 function ProjectsIntro() {
     return (
-        <div className='flex flex-row flex-wrap justify-evenly my-10'>
+        <div className='flex flex-row flex-wrap justify-evenly project'>
             <div className="basis-2/5 ml-4">
-                <img className='w-full ml-10' src={ProjectPic} alt="" />
+                <img className='w-4/5 ml-10 shadow-xl' src={ProjectPic} alt="project vector art" />
             </div>
             <div className='row container w-1/3 text-center mt-9 '>
                 <h1 className='font-semibold text-5xl'>Projects</h1>

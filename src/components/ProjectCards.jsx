@@ -5,13 +5,14 @@ import CardGoogleBooks from "./cards/CardGoogleBooks"
 import CardNoteTaker from "./cards/CardNoteTaker"
 import CardQuiz from "./cards/CardQuiz"
 import CardPreschool from "./cards/CardPreschool"
+import { FaGithub } from 'react-icons/fa'
 
 
 
 function ProjectCards() {
     return (
-        <>
-            <div className="flex flex-row flex-wrap justify-evenly ">
+        <div className="project-card">
+            <div className="flex flex-row flex-wrap justify-evenly">
                 <CardGithub />
                 <CardWeather />
                 <CardGoogleBooks />
@@ -22,9 +23,9 @@ function ProjectCards() {
                 <CardQuiz />
             </div>
             <div className="flex justify-center mt-10">
-                <Link to='https://github.com/adam-brannon09' className="btn btn-success text-white">More Projects on Github</Link>
+                <Link to='https://github.com/adam-brannon09' className="btn btn-success text-white">More Projects on Github <FaGithub className="text-lg" /></Link>
             </div>
-        </>
+        </div>
     )
 }
 export default ProjectCards

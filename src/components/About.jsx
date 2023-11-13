@@ -1,6 +1,4 @@
-import CodingImg from '../assets/Developper_01__Converted__generated.jpg'
-
-
+import DevImg from '../assets/devImage.jpg'
 
 function About() {
     return (
@@ -11,7 +9,7 @@ function About() {
 
             <div className="flex flex-row">
                 <div className='col basis-1/2 mr-2'>
-                    <img src={CodingImg} className="w-full" alt="" />
+                    <img src={DevImg} className="w-full shadow-xl" alt="development vector art" />
                 </div>
                 <div className=" flex-col text-center mx-8">
                     <h1 className='text-5xl'>Full Stack Development</h1>

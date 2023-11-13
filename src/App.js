@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound'
 import Footer from './components/Footer'
 function App() {
   return (
-    <div className='h-screen'>
+    <div className='mx-5 h-screen'>
       <Router>
         <Navbar />
         <Routes>

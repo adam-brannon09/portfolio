@@ -8,7 +8,7 @@ function CardPreschool() {
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <Link to='https://github.com/adam-brannon09/first-christian-preschool'>
-                        <img src={FCP} alt="screenshot" className="rounded-xl" />
+                        <img src={FCP} alt="screenshot" className="rounded-xl border-2" />
                     </Link>
                 </figure>
                 <div className="card-body items-center text-center">

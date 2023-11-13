@@ -8,7 +8,7 @@ function CardQuiz() {
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <Link to='https://github.com/adam-brannon09/coding_quiz'>
-                        <img src={Quiz} alt="Shoes" className="rounded-xl" />
+                        <img src={Quiz} alt="Shoes" className="rounded-xl border-2" />
                     </Link>
                 </figure>
                 <div className="card-body items-center text-center">
