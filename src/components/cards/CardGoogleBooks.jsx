@@ -10,7 +10,24 @@ function CardGoogleBooks() {
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">Google Books Search</h2>
                     <p>MERN Stack search engine that allows user to create an account, search for books, and save books to a database. </p>
-                    <div className="card-actions">icons</div>
+                    <div className="card-actions text-5xl">
+
+                        <i class="devicon-mongodb-plain-wordmark colored"></i>
+
+                        <i class="devicon-express-original-wordmark colored"></i>
+
+                        <i class="devicon-graphql-plain-wordmark colored"></i>
+
+                        <i class="devicon-react-original colored"></i>
+
+                        <i class="devicon-nodejs-plain-wordmark colored"></i>
+
+
+
+
+
+
+                    </div>
                     <div className="card-actions">
 
                         <button className="btn btn-success text-white">To The Repo</button>

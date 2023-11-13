@@ -10,9 +10,12 @@ function CardPreschool() {
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">First Christian Preschool</h2>
                     <p>A new site for First Christian Preschool in Defuniak Springs, FL. *Still in development. </p>
-                    <div className="card-actions">icons</div>
+                    <div className="card-actions text-5xl">
+                        <i className="devicon-react-original-wordmark colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                    </div>
                     <div className="card-actions">
-
                         <button className="btn btn-success text-white">To The Repo</button>
                     </div>
                 </div>

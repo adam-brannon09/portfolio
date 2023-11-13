@@ -12,7 +12,11 @@ function CardWeather() {
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">Weather App</h2>
                     <p>React App that allows you to search for and view weather information for a selected area. </p>
-                    <div className="card-actions">icons</div>
+                    <div className="card-actions text-5xl">
+                        <i className="devicon-react-original-wordmark colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                    </div>
                     <div className="card-actions">
 
                         <button className="btn btn-success text-white">To The Repo</button>

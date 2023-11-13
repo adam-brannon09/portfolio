@@ -3,10 +3,9 @@ import ProjectCards from "../components/ProjectCards"
 
 function Projects() {
     return (
-        <div>
+        <div className="mb-8">
             <ProjectsIntro />
             <ProjectCards />
-
         </div>
     )
 }
