@@ -6,6 +6,7 @@ function Projects() {
         <div>
             <ProjectsIntro />
             <ProjectCards />
+
         </div>
     )
 }
