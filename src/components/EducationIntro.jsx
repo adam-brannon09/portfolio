@@ -1,4 +1,5 @@
-import Cap from '../assets/vecteezy_graduate-vector-icon-design_21167502.jpg'
+import Cap from '../assets/vecteezy_graduation-hat-shape-vector-icon-or-symbol-design_8063888.jpg'
+
 
 function EducationIntro() {
     return (
