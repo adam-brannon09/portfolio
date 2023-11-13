@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Logo from '../assets/logo.png'
 
 function Navbar() {
 
@@ -18,14 +19,15 @@ function Navbar() {
                             <li><Link to='/contact' className='px-5 btn btn-ghost text-xl font-normal'>Contact and Resume</Link></li>
                         </ul>
                     </div>
-                    <a className=" normal-case text-xl">Adam Brannon icon goes here</a>
+                    {/* <a className=" normal-case text-xl">Adam Brannon icon goes here</a> */}
+                    <img src={Logo} className='w-20 ml-8' alt="Adam Brannon Logo" />
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className=" menu menu-horizontal mr-3">
-                        <li className='px-5 font-semibold normal-case '><Link to='/' >Home</Link></li>
-                        <li className='px-5 font-semibold normal-case'><Link to='/education' >Education</Link></li>
-                        <li className='px-5 font-semibold normal-case'><Link to='/projects'>Projects</Link></li>
-                        <li className='px-5 font-semibold normal-case'><Link to='/contact'>Contact and Resume</Link></li>
+                        <li className='px-4 text-lg font-semibold normal-case '><Link to='/'>Home</Link></li>
+                        <li className='px-4 text-lg font-semibold normal-case'><Link to='/education' >Education</Link></li>
+                        <li className='px-4 text-lg font-semibold normal-case'><Link to='/projects'>Projects</Link></li>
+                        <li className='px-4 text-lg font-semibold normal-case'><Link to='/contact'>Contact and Resume</Link></li>
                     </ul>
                 </div>
             </div>
