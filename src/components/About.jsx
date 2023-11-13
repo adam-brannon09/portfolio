@@ -9,34 +9,34 @@ function About() {
 
             <div className="flex flex-row">
                 <div className='col basis-1/2 mr-2'>
-                    <img src={DevImg} className="w-full shadow-xl" alt="development vector art" />
+                    <img src={DevImg} className="w-full" alt="development vector art" />
                 </div>
-                <div className=" flex-col text-center mx-8">
-                    <h1 className='text-5xl'>Full Stack Development</h1>
+                <div className=" flex-col  mx-8">
+                    <h1 className='text-5xl text-center'>Full Stack Development</h1>
                     <br />
                     <br />
                     <section className='row'>
-                        <div className='flex text-7xl text-center justify-between'>
-                            <i class="devicon-html5-plain colored"></i>
-                            <i class="devicon-css3-plain-wordmark colored"></i>
-                            <i class="devicon-javascript-plain colored"></i>
-                            <i class="devicon-react-original-wordmark colored"></i>
-                            <i class="devicon-tailwindcss-plain colored"></i>
-                            <i class="devicon-bootstrap-plain colored"></i>
+                        <div className='flex text-6xl text-center justify-between'>
+                            <i className="devicon-html5-plain colored"></i>
+                            <i className="devicon-css3-plain-wordmark colored"></i>
+                            <i className="devicon-javascript-plain colored"></i>
+                            <i className="devicon-react-original-wordmark colored"></i>
+                            <i className="devicon-tailwindcss-plain colored"></i>
+                            <i className="devicon-bootstrap-plain colored"></i>
                         </div>
                         <br />
-                        <div className="flex justify-around text-7xl text-center">
-                            <i class="devicon-nodejs-plain-wordmark colored"></i>
-                            <i class="devicon-express-original-wordmark colored"></i>
-                            <i class="devicon-npm-original-wordmark colored"></i>
-                            <i class="devicon-mongodb-plain-wordmark colored"></i>
-                            <i class="devicon-mysql-plain colored"></i>
-                            <i class="devicon-git-plain colored"></i>
+                        <div className="flex justify-around text-6xl text-center">
+                            <i className="devicon-nodejs-plain-wordmark colored"></i>
+                            <i className="devicon-express-original-wordmark colored"></i>
+                            <i className="devicon-npm-original-wordmark colored"></i>
+                            <i className="devicon-mongodb-plain-wordmark colored"></i>
+                            <i className="devicon-mysql-plain colored"></i>
+                            <i className="devicon-git-plain colored"></i>
                         </div>
                     </section>
                     <br />
                     <div className=''>
-                        <ul className='text-xl text-slate-500 mt-6 '>
+                        <ul className=' text-slate-500 mt-6'>
                             <li>⚡  Designing visually appealing and user-friendly interfaces for web and mobile applications</li>
                             <br />
                             <li>⚡ Implementing responsive and dynamic front-end solutions with proficiency in ReactJS</li>
@@ -51,13 +51,6 @@ function About() {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
         </div>
     )
 }

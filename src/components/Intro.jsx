@@ -5,7 +5,7 @@ import Picture from './Picture'
 function Intro() {
     return (
         <div className="flex flex-row flex-wrap">
-            <div className='w-1/2 ml-8 mt-8 hello'>
+            <div className='w-1/2 ml-10 hello'>
                 <h1 className='text-6xl font-semibold'>Hello World 👋!</h1>
                 <br />
                 <p className='text-3xl text-slate-500'>My name is <span className='text-success font-bold'>Adam Brannon</span>. Full Stack Developer, Follower of Tech, Problem Solver. Lifelong Learner. </p>
@@ -23,7 +23,7 @@ function Intro() {
 
             </div>
 
-            <div className='w-1/3 ml-10'><Picture /></div>
+            <div className='w-1/3 ml-20'><Picture /></div>
 
         </div>
     )

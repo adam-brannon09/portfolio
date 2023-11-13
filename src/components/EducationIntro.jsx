@@ -1,4 +1,3 @@
-import Cap from '../assets/vecteezy_graduation-hat-shape-vector-icon-or-symbol-design_8063888.jpg'
 import Education from '../assets/education.jpg'
 
 
@@ -6,9 +5,9 @@ function EducationIntro() {
     return (
         <div className="flex flex-row my-10">
             <div className="basis-1/2 ml-4">
-                <img className='w-max ml-10 ' src={Education} alt="" />
+                <img className='w-max ml-10 ' src={Education} alt="computer vector art" />
             </div>
-            <div className='row container text-center mt-9'>
+            <div className='row container text-center mt-28'>
                 <h1 className='font-semibold text-5xl'>Education</h1>
                 <br />
                 <br />
