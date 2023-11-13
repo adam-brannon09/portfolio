@@ -15,7 +15,7 @@ function EducationCard() {
                     <div className='bg-success h-24 '>
                         <div className='text-white pt-4 w-full '>
                             <h2 className="inline ml-4 mr-9 font-semibold text-xl ">University of Central Florida</h2>
-                            <h3 className='inline font-normal '>Feb 2023 - Aug 2023</h3>
+                            <h3 className='inline font-normal ml-80'>Feb 2023 - Aug 2023</h3>
                         </div>
                         <p className='p-4 font-semibold text-white'>Certificate in Full Stack Web Development</p>
                     </div>
