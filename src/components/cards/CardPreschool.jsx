@@ -1,11 +1,15 @@
-import FCP from '../../assets/fcpscreenshot.png'
+import FCP from '../../assets/cardImages/fcpscreenshot.png'
+import { Link } from 'react-router-dom'
+
 
 function CardPreschool() {
     return (
         <div class="">
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
-                    <img src={FCP} alt="Shoes" className="rounded-xl" />
+                    <Link to='https://github.com/adam-brannon09/first-christian-preschool'>
+                        <img src={FCP} alt="screenshot" className="rounded-xl" />
+                    </Link>
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">First Christian Preschool</h2>
@@ -15,9 +19,9 @@ function CardPreschool() {
                         <i class="devicon-javascript-plain colored"></i>
                         <i class="devicon-tailwindcss-plain colored"></i>
                     </div>
-                    <div className="card-actions">
+                    {/* <div className="card-actions">
                         <button className="btn btn-success text-white">To The Repo</button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

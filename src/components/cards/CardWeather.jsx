@@ -1,5 +1,5 @@
-import Weather from '../../assets/weatherscreenshot.png'
-
+import Weather from '../../assets/cardImages/weatherscreenshot.png'
+import { Link } from 'react-router-dom'
 
 
 function CardWeather() {
@@ -7,7 +7,9 @@ function CardWeather() {
         <div class="">
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
-                    <img src={Weather} alt="Shoes" className="rounded-xl" />
+                    <Link to='https://github.com/adam-brannon09/weather-app-v2.0'>
+                        <img src={Weather} alt="Shoes" className="rounded-xl" />
+                    </Link>
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">Weather App</h2>
@@ -17,10 +19,10 @@ function CardWeather() {
                         <i class="devicon-javascript-plain colored"></i>
                         <i class="devicon-tailwindcss-plain colored"></i>
                     </div>
-                    <div className="card-actions">
+                    {/* <div className="card-actions">
 
                         <button className="btn btn-success text-white">To The Repo</button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
