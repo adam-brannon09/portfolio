@@ -7,7 +7,7 @@ function Intro() {
         <div className="flex flex-wrap xs:w-full xs:mt-12 lg:mt-0">
             {/* hello world */}
             <div className='lg:basis-3/6  lg:mx-20 xs:ml-20 xs:w-max lg:mt-40'>
-                <h1 className='  xs:text-4xl lg:text-6xl font-semibold '>Hello World 👋!</h1>
+                <h1 className='  xs:text-3xl lg:text-6xl font-semibold '>Hello World 👋!</h1>
                 <br />
                 <p className='text-3xl text-slate-500 w-4/5 max-[600px]:text-2xl'>My name is <span className='text-success font-bold'>Adam Brannon</span>. Full Stack Developer, Follower of Tech, Problem Solver. Lifelong Learner. </p>
                 <br />

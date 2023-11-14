@@ -9,11 +9,11 @@ function About() {
             </div>
             {/* vector art */}
             <div className="flex flex-row">
-                <div className='col basis-1/2 mr-2 max-[1100px]:hidden'>
+                <div className='col basis-1/2 mr-2 xs:hidden lg:inline-block'>
                     <img src={DevImg} className="w-full" alt="development vector art" />
                 </div>
                 {/* dev details right side */}
-                <div className=" flex-col  mx-8">
+                <div className=" flex-col  mx-auto">
                     <h1 className='text-5xl text-center'>Full Stack Development</h1>
                     <br />
                     <br />
@@ -38,7 +38,7 @@ function About() {
                     </section>
                     <br />
                     <div className=''>
-                        <ul className=' text-slate-500 mt-6'>
+                        <ul className=' text-slate-500 mt-6 xs:mx-auto xs:text-center lg:text-start'>
                             <li>⚡  Designing visually appealing and user-friendly interfaces for web and mobile applications</li>
                             <br />
                             <li>⚡ Implementing responsive and dynamic front-end solutions with proficiency in ReactJS</li>
