@@ -4,7 +4,7 @@ import Picture from './Picture'
 
 function Intro() {
     return (
-        <div className="flex flex-wrap xs:max lg:w-full xs:mt-12  lg:mt-0">
+        <div className="flex flex-wrap xs:max lg:w-full xs:mt-12 xs:text-center lg:text-left lg:mt-0">
             {/* hello world */}
             <div className='lg:basis-3/6  lg:mx-20 xs:ml-20 xs:w-max lg:mt-40'>
                 <h1 className='  xs:text-3xl lg:text-6xl font-semibold '>Hello World 👋!</h1>
@@ -19,9 +19,9 @@ function Intro() {
                         <li className='ml-3 text-4xl' style={{ color: "#0866FF" }}><Link to='https://www.facebook.com/adam.brannon.9'><FaFacebook /></Link></li>
                     </ul>
                     <br />
-
+                    <Link to='/contact' className='btn btn-success btn-wide text-white hover:shadow-xl mt-5 '>Contact Me</Link>
                 </div>
-                <Link to='/contact' className='btn btn-success btn-wide text-white hover:shadow-xl mt-5 '>Contact Me</Link>
+
             </div>
             {/* headshot */}
 
