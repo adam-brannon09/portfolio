@@ -5,7 +5,7 @@ function ProjectsIntro() {
         <div className="lg:mt-40 xs:mt-12 ">
 
             {/* vector art */}
-            <div className="flex flex-row lg:mx-auto xs:justify-center xs:mx-0 ">
+            <div className="flex flex-row lg:ml-16 xs:justify-center xs:mx-2 ">
                 <div className='col basis-1/2 mx-auto max-[800px]:hidden'>
                     <img src={ProjectPic} className="w-5/6 " alt="development vector art" />
                 </div>
@@ -17,7 +17,6 @@ function ProjectsIntro() {
                         <p className='text-slate-400 font-semibold leading-9 xs:text-lg xs:w-screen lg:w-11/12'>My projects make use of a vast variety of the latest technology and tools. My best experience is in creating React Projects.  Below are some of my projects.</p>
                     </section>
                     <br />
-
                 </div>
             </div>
         </div>
