@@ -6,7 +6,7 @@ import resume from '../assets/documents/resume.pdf'
 
 function ContactMe() {
     return (
-        <div className="flex flex-row mx-auto contact mb-40">
+        <div className="flex flex-row mx-auto contact mb-40 lg:mt-24">
             <div className="basis-2/3 xs:hidden lg:inline-block">
                 <img src={ContactImg} className="mx-auto " alt="contact image vector art" ></img>
             </div>
