@@ -10,7 +10,7 @@ function CardGithub() {
                         <img src={Github} alt="Shoes" className="rounded-xl" />
                     </Link>
                 </figure>
-                <div className="card-body items-center text-center">
+                <div className="card-body items-center text-center ">
                     <h2 className="card-title">Github Finder</h2>
                     <p>React App that allows you to search for and view Github users, profiles, and recent repos. </p>
                     <div className="card-actions text-5xl">

@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom"
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from 'react-icons/fa'
 import ContactImg from '../assets/contactImg.jpeg'
+import resume from '../assets/documents/resume.pdf'
+
+
 function ContactMe() {
     return (
         <div className="flex flex-row mx-9 contact mb-40">
@@ -16,7 +19,7 @@ function ContactMe() {
                     <li className='ml-3 text-4xl text-slate-500'><Link to='mailto:adam.brannon09@icloud.com' ><FaEnvelope /></Link></li>
                     <li className='ml-3 text-4xl' style={{ color: "#0866FF" }}><Link to='https://www.facebook.com/adam.brannon.9'><FaFacebook /></Link></li>
                 </ul>
-                <button className='btn btn-success btn-wide hover:shadow-xl text-white ml-5 mt-9'>See My Resume</button>
+                <a href={resume} target="_blank" className='btn btn-success btn-wide hover:shadow-xl text-white ml-5 mt-9'>See My Resume</a>
             </div>
         </div>
     )

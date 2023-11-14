@@ -18,7 +18,7 @@ function Intro() {
                         <li className='ml-3 text-4xl' style={{ color: "#0866FF" }}><Link to='https://www.facebook.com/adam.brannon.9'><FaFacebook /></Link></li>
                     </ul>
                     <br />
-                    <button className='btn btn-success btn-wide text-white hover:shadow-xl ml-5 mt-5'>Contact Me</button>
+                    <Link to='/contact' className='btn btn-success btn-wide text-white hover:shadow-xl ml-5 mt-5'>Contact Me</Link>
                 </div>
 
             </div>
