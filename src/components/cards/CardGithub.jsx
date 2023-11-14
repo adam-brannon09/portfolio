@@ -7,7 +7,7 @@ function CardGithub() {
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <Link to='https://github.com/adam-brannon09/github-finder'>
-                        <img src={Github} alt="Shoes" className="rounded-xl" />
+                        <img src={Github} alt="screenshot" className="rounded-xl" />
                     </Link>
                 </figure>
                 <div className="card-body items-center text-center ">

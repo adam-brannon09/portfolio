@@ -4,7 +4,7 @@ import Picture from './Picture'
 
 function Intro() {
     return (
-        <div className="flex flex-wrap xs:w-full xs:mt-12 xs:mx-0 lg:mt-0">
+        <div className="flex flex-wrap xs:max lg:w-full xs:mt-12  lg:mt-0">
             {/* hello world */}
             <div className='lg:basis-3/6  lg:mx-20 xs:ml-20 xs:w-max lg:mt-40'>
                 <h1 className='  xs:text-3xl lg:text-6xl font-semibold '>Hello World 👋!</h1>
@@ -21,7 +21,7 @@ function Intro() {
                     <br />
 
                 </div>
-                <Link to='/contact' className='btn btn-success btn-wide text-white hover:shadow-xl mt-5 mx-auto'>Contact Me</Link>
+                <Link to='/contact' className='btn btn-success btn-wide text-white hover:shadow-xl mt-5 '>Contact Me</Link>
             </div>
             {/* headshot */}
 

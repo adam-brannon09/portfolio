@@ -8,7 +8,7 @@ function CardWeather() {
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <Link to='https://github.com/adam-brannon09/weather-app-v2.0'>
-                        <img src={Weather} alt="Shoes" className="rounded-xl" />
+                        <img src={Weather} alt="screenshot" className="rounded-xl" />
                     </Link>
                 </figure>
                 <div className="card-body items-center text-center">
