@@ -3,7 +3,7 @@ import ProjectCards from "../components/ProjectCards"
 
 function Projects() {
     return (
-        <div className="mb-8">
+        <div className="">
             <ProjectsIntro />
             <ProjectCards />
         </div>

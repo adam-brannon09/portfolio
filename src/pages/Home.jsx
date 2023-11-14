@@ -4,7 +4,7 @@ import About from "../components/About"
 
 function Home() {
     return (
-        <div className='mt-9'>
+        <div className=''>
             <Intro />
             <About />
         </div>

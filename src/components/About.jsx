@@ -2,15 +2,17 @@ import DevImg from '../assets/devImage.jpg'
 
 function About() {
     return (
-        <div className="about mb-9">
+        <div className="mt-40">
             <div className='text-center mb-32'>
+                {/* title */}
                 <h1 className="text-5xl font-semibold">Here's what I do</h1>
             </div>
-
+            {/* vector art */}
             <div className="flex flex-row">
-                <div className='col basis-1/2 mr-2'>
+                <div className='col basis-1/2 mr-2 max-[1100px]:hidden'>
                     <img src={DevImg} className="w-full" alt="development vector art" />
                 </div>
+                {/* dev details right side */}
                 <div className=" flex-col  mx-8">
                     <h1 className='text-5xl text-center'>Full Stack Development</h1>
                     <br />
