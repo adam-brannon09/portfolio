@@ -11,7 +11,7 @@ import { FaGithub } from 'react-icons/fa'
 
 function ProjectCards() {
     return (
-        <div className="project-card">
+        <div className="xs:mt-12 lg:mt-28">
             <div className="flex flex-row flex-wrap justify-evenly">
                 <CardGithub />
                 <CardWeather />

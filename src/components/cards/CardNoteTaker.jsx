@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function CardNoteTaker() {
     return (
-        <div className="">
+        <div className="xs:mt-6 lg:mt-0">
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
                     <Link to='https://github.com/adam-brannon09/note_taker'>

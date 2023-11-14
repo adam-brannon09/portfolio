@@ -6,11 +6,11 @@ import resume from '../assets/documents/resume.pdf'
 
 function ContactMe() {
     return (
-        <div className="flex flex-row mx-9 contact mb-40">
-            <div className="basis-1/2">
-                <img src={ContactImg} className="ml-10" alt="contact image vector art" ></img>
+        <div className="flex flex-row mx-auto contact mb-40">
+            <div className="basis-2/3 xs:hidden lg:inline-block">
+                <img src={ContactImg} className="mx-auto " alt="contact image vector art" ></img>
             </div>
-            <div className="justify-center container text-center mt-10">
+            <div className="justify-center container text-center lg:mt-10">
                 <h1 className="text-5xl font-semibold">Contact Me</h1>
                 <p className="text-lg text-slate-400 font-bold my-7">You can contact me at the places mentioned below. <br /> I will get back to you as fast as I can.</p>
                 <ul className='flex justify-center mt-5 text-4xl '>
