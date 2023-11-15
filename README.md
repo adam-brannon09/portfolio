@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzguMTcxODkwMjU4Nzg5MDYiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxNzguMTcxODkwMjU4Nzg5MDYgMzUiPjxyZWN0IHdpZHRoPSIxMDYuODU5MzgyNjI5Mzk0NTMiIGhlaWdodD0iMzUiIGZpbGw9IiM0YTkwZTIiLz48cmVjdCB4PSIxMDYuODU5MzgyNjI5Mzk0NTMiIHdpZHRoPSI3MS4zMTI1MDc2MjkzOTQ1MyIgaGVpZ2h0PSIzNSIgZmlsbD0iIzRhNGE0YSIvPjx0ZXh0IHg9IjUzLjQyOTY5MTMxNDY5NzI2NiIgeT0iMTcuNSIgZm9udC1zaXplPSIxMiIgZm9udC1mYW1pbHk9IidSb2JvdG8nLCBzYW5zLXNlcmlmIiBmaWxsPSIjRkZGRkZGIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjIiPkJVSUxUIFdJVEg8L3RleHQ+PHRleHQgeD0iMTQyLjUxNTYzNjQ0NDA5MTgiIHk9IjE3LjUiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtZmFtaWx5PSInTW9udHNlcnJhdCcsIHNhbnMtc2VyaWYiIGZpbGw9IiMzODlhZDkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtd2VpZ2h0PSI5MDAiIGFsaWdubWVudC1iYXNlbGluZT0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMiI+UkVBQ1Q8L3RleHQ+PC9zdmc+)](https://forthebadge.com)
+<img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="js">
+<img src="https://forthebadge.com/images/badges/makes-people-smile.svg" alt="smile">
+<img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="coffee">
+<img src="https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg" alt="ctrl_c">
+<img src="https://forthebadge.com/images/badges/not-a-bug-a-feature.svg" alt="bug">
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-### `npm start`
+          
+          
+# React Portfolio v2.0 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://forthebadge.com/images/badges/license-mit.svg" alt="mit">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
+Web Developer Portfolio built using React. Consists of a home, education, experience, projects, and contact page.
 
-### `npm test`
+## Quick Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Installation](#installation)
 
-### `npm run build`
+- [Technologies](#technologies)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Demo](#demo)
+  
+- [Feedback and Support](#feedback-and-support)
+  
+- [License](#license)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- No install required for the web-based version. 
+- To run the application locally, clone the repository to your local machine then:
+  - Install the dependencies by running `npm install` in the root directory
+  - Run `npm start` to start the application
+  - Navigate to `localhost:3000` in your browser to use the application
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<div style="display:flex; align-items:center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="width:100px;height:auto;padding:50px;"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="width:100px;height:auto;padding:50px;"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" style="width:100px;height:auto;padding:50px;color:white;"/>
+</div>          
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Demo
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="./src/assets/screenshotDeployed.png" style="width:900px;height:auto">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow me to the [Deployed Application](https://portfolio-nine-lemon-49.vercel.app/)
 
-### Code Splitting
+[Check me out on Github](https://github.com/adam-brannon09)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Email Me](mailto:adam.brannon09@icloud.com)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Feedback and Support
 
-### Making a Progressive Web App
+If you encounter any issues while viewing Weather Dashboard v2.0 or have any suggestions for improvement, please [open an issue](https://github.com/adam-brannon09/portfolio/issues) on the GitHub repository. I appreciate your feedback and will address any concerns as soon as possible.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+Weather Dashboard v2.0 is released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this application as per the terms of this license.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+    <img src="https://forthebadge.com/images/badges/built-by-developers.svg" />
+</div>
