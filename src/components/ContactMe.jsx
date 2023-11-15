@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from 'react-icons/fa'
 import ContactImg from '../assets/contactImg.jpeg'
-import resume from '../assets/documents/resume.pdf'
+import resume from '../assets/documents/currentUse.pdf'
 
 
 function ContactMe() {
