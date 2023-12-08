@@ -23,7 +23,7 @@ function EducationCard() {
                     </div>
                     <div className='my-5 p-5'>
                         <ul>
-                            <li>⚡ A three month intensive bootcamp course of 240 contact hours.</li>
+                            <li>⚡ A six month intensive bootcamp course of 240 contact hours.</li>
                             <li>⚡ Learned to work on multiple group projects integrating Git workflow.</li>
                             <li>⚡ Gained the skill to become a MERN stack developer, creating various deployed websites with databases.</li>
                         </ul>
