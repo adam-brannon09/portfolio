@@ -12,7 +12,7 @@ function CardNoteTaker() {
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">Note Taker</h2>
-                    <p>Allows a user to create notes, read created notes, update existing notes, and delete notes. </p>
+                    <p>Allows a user to create, read, update, and delete notes. </p>
                     <div className="card-actions text-5xl my-3">
                         <i className="devicon-html5-plain colored"></i>
                         <i className="devicon-css3-plain colored"></i>
